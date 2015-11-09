@@ -4,7 +4,7 @@ class SesjaLinuksowa < Sinatra::Application
     enable :sessions
 
     # Nie zapomnij zmienić tego!
-    set :edition => ""
+    set :edition => "13"
 
     register Sinatra::R18n
 
@@ -42,6 +42,10 @@ class SesjaLinuksowa < Sinatra::Application
 
   get '/' do
     redirect "/pl"
+  end
+
+  get '/test' do
+    haml :test, :locals => {:edition => settings.edition}, :layout => false
   end
 
   get '/:locale/?' do

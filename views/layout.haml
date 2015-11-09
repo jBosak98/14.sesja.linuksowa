@@ -5,9 +5,10 @@
     %title="#{edition}. #{t.meta.name}"
     %meta{:name => "author", :content => "#{t.meta.author}"}
     %meta{:name => "description", :content => "#{t.meta.description}"}
-    = stylesheet_tag 'application'
+    %link{:href => "assets/plugin.css", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "assets/custom.css", :rel => "stylesheet", :type => "text/css"}
     = partial :opengraph, :layout => false, :locals => { :edition => edition }
-  %body
-    .container
-      = yield
-    = javascript_tag 'application'
+    %meta{:content => "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no", :name => "viewport"}
+  = yield
+  %script{:src => "assets/plugin.js"}
+  %script{:src => "assets/custom.js"}
