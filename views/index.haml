@@ -40,35 +40,37 @@
       %h1.text_h.center.header.cd-headline.letters.type
         %span Sesja Linuksowa to
         %span.cd-words-wrapper.waiting
-          %b.is-visible 2 dni
-          %b 14 prelegentów
-          %b 300 uczestników
-          %b 40 litrów wódki
+          %b.is-visible ponad 200 pasjonatów
+          %b nowoczesne technologie
+          %b 2 dni
   / Intro and service
   #intro.section.scrollspy
     .container
       .row
         .col.s12
           %h2.center.header.text_h2
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            = succeed "vestibulum" do
-              %span.span_h2 Phasellus
-            %span.span_h2 laoreet quis.
+            Jedna z <span class="span_h2">największych</span> konferencji dotyczących <span class="span_h2">wolnego oprogramowania</span> w Polsce!
         .col.s12.m4.l4
           .center.promo.promo-example
             %i.mdi-image-flash-on
-            %h5.promo-caption Speeds up development
-            %p.light.center Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes.
+            %h5.promo-caption
+              Czym jest Sesja?
+            %p.light.center
+              Jest to konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux.
         .col.s12.m4.l4
           .center.promo.promo-example
             %i.mdi-social-group
-            %h5.promo-caption User Experience Focused
-            %p.light.center Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            %h5.promo-caption
+              Jak to wygląda?
+            %p.light.center
+              Udział w Sesji jest darmowy. Co roku na konferencji spotykają się pasjonaci informatyki z całej Polski, aby pogłębić swoją wiedzę i podjąć dyskusję w interesujących ich dziedzinach.
         .col.s12.m4.l4
           .center.promo.promo-example
             %i.mdi-hardware-desktop-windows
-            %h5.promo-caption Fully responsive
-            %p.light.center Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+            %h5.promo-caption
+              Nasz cel
+            %p.light.center
+              Naszym celem jest promowanie idei wolnego oprogramowania. Wiemy, że Open Source jest coraz bardziej popularny w rozwiązaniach komercyjnych, jak i domowych. I zależy nam na jego popularyzacji.
   / Work
   #work.section.scrollspy
     .container
@@ -257,7 +259,7 @@
   %footer#contact.page-footer.default_color.scrollspy
     .container
       .row
-        .col.l6.s12
+        .col.offset-l3.l6.s12
           %form.col.s12{:action => "contact.php", :method => "post"}
             .row
               .input-field.col.s6
@@ -267,7 +269,7 @@
               .input-field.col.s6
                 %i.mdi-communication-email.prefix.white-text
                 %input#icon_email.validate.white-text{:name => "email", :type => "email"}/
-                %label.white-text{:for => "icon_email"} Email-id
+                %label.white-text{:for => "icon_email"} Email
               .input-field.col.s12
                 %i.mdi-editor-mode-edit.prefix.white-text
                 %textarea#icon_prefix2.materialize-textarea.white-text{:name => "message"}
@@ -276,35 +278,3 @@
                 %button.btn.waves-effect.waves-light.red.darken-1{:type => "submit"}
                   Submit
                   %i.mdi-content-send.right.white-text
-        .col.l3.s12
-          %h5.white-text joashpereira.com
-          %ul
-            %li
-              %a.white-text{:href => "http://www.joashpereira.com/"} Home
-            %li
-              %a.white-text{:href => "http://www.joashpereira.com/blog"} Blog
-        .col.l3.s12
-          %h5.white-text Social
-          %ul
-            %li
-              %a.white-text{:href => "https://www.behance.net/joashp"}
-                %i.small.fa.fa-behance-square.white-text
-                Behance
-            %li
-              %a.white-text{:href => "https://www.facebook.com/joash.c.pereira"}
-                %i.small.fa.fa-facebook-square.white-text
-                Facebook
-            %li
-              %a.white-text{:href => "https://github.com/joashp"}
-                %i.small.fa.fa-github-square.white-text
-                Github
-            %li
-              %a.white-text{:href => "https://www.linkedin.com/in/joashp"}
-                %i.small.fa.fa-linkedin-square.white-text
-                Linkedin
-    .footer-copyright.default_color
-      .container
-        Made by
-        = succeed "." do
-          %a.white-text{:href => "http://joashpereira.com"} Joash Pereira
-        %a.white-text{:href => "http://materializecss.com/"} materializecss
