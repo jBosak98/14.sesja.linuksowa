@@ -9,7 +9,7 @@ navigation:
   team: "Zespół"
   contact: "Kontakt"
 strings:
-  our_team: "Nasz zespół"
+  team: "Nasz zespół"
 forms:
   name: "Imię i nazwisko"
   email: "Adres email"
