@@ -252,7 +252,7 @@
                 %a.blue-text.text-lighten-2{:href => "https://www.linkedin.com/in/joashp"}
                   %i.fa.fa-linkedin-square
   / Footer
-  %footer#contact.page-footer.default_color.scrollspy
+  %footer#contact.page-footer.default_color.footer_color.scrollspy
     .container
       .row
         .col.offset-l3.l6.s12
@@ -269,8 +269,8 @@
               .input-field.col.s12
                 %i.mdi-editor-mode-edit.prefix.white-text
                 %textarea#icon_prefix2.materialize-textarea.white-text{:name => "message"}
-                %label.white-text{:for => "icon_prefix2"}t.forms.question
+                %label.white-text{:for => "icon_prefix2"}=t.forms.question
               .col.offset-s7.s5
                 %button.btn.waves-effect.waves-light.red.darken-1{:type => "submit"}
-                  t.forms.submit
+                  = t.forms.submit
                   %i.mdi-content-send.right.white-text
