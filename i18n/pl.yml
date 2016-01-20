@@ -10,6 +10,8 @@ navigation:
   contact: "Kontakt"
 strings:
   team: "Nasz zespół"
+team:
+  coordinator: "Koordynator"
 forms:
   name: "Imię i nazwisko"
   email: "Adres email"
