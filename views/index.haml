@@ -12,26 +12,22 @@
           %a#logo-container.brand-logo{:href => "#"} #{edition}. #{t.meta.name}
           %ul.right.hide-on-med-and-down
             %li
-              %a{:href => "#intro"} Service
+              %a{:href => "#intro"}=t.navigation.about
             %li
-              %a{:href => "#work"} Work
+              %a{:href => "#work"}=t.navigation.previous
             %li
-              %a{:href => "#team"} Team
+              %a{:href => "#team"}=t.navigation.team
             %li
-              %a{:href => "#contact"} Contact
-            %li
-              %a{:href => "https://github.com/joashp/material-design-template", :target => "_blank"} Download
+              %a{:href => "#contact"}=t.navigation.contact
           %ul#nav-mobile.side-nav
             %li
-              %a{:href => "#intro"} Service
+              %a{:href => "#intro"}=t.navigation.about
             %li
-              %a{:href => "#work"} Work
+              %a{:href => "#work"}=t.navigation.previous
             %li
-              %a{:href => "#team"} Team
+              %a{:href => "#team"}=t.navigation.team
             %li
-              %a{:href => "#contact"} Contact
-            %li
-              %a{:href => "https://github.com/joashp/material-design-template", :target => "_blank"} Download
+              %a{:href => "#contact"}=t.navigation.contact
           %a.button-collapse{"data-activates" => "nav-mobile", :href => "#"}
             %i.mdi-navigation-menu
   / Hero
@@ -173,7 +169,7 @@
   / Team
   #team.section.scrollspy
     .container
-      %h2.header.text_b Our Team
+      %h2.header.text_b=t.strings.team
       .row
         .col.s12.m3
           .card.card-avatar
@@ -265,16 +261,16 @@
               .input-field.col.s6
                 %i.mdi-action-account-circle.prefix.white-text
                 %input#icon_prefix.validate.white-text{:name => "name", :type => "text"}/
-                %label.white-text{:for => "icon_prefix"} First Name
+                %label.white-text{:for => "icon_prefix"}=t.forms.name
               .input-field.col.s6
                 %i.mdi-communication-email.prefix.white-text
                 %input#icon_email.validate.white-text{:name => "email", :type => "email"}/
-                %label.white-text{:for => "icon_email"} Email
+                %label.white-text{:for => "icon_email"}=t.forms.email
               .input-field.col.s12
                 %i.mdi-editor-mode-edit.prefix.white-text
                 %textarea#icon_prefix2.materialize-textarea.white-text{:name => "message"}
-                %label.white-text{:for => "icon_prefix2"} Message
+                %label.white-text{:for => "icon_prefix2"}t.forms.question
               .col.offset-s7.s5
                 %button.btn.waves-effect.waves-light.red.darken-1{:type => "submit"}
-                  Submit
+                  t.forms.submit
                   %i.mdi-content-send.right.white-text
