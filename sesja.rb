@@ -4,7 +4,7 @@ class SesjaLinuksowa < Sinatra::Application
     enable :sessions
 
     # Nie zapomnij zmienić tego!
-    set :edition => "13"
+    set :edition => "14"
 
     register Sinatra::R18n
 
