@@ -1,3 +1,9 @@
+require "sinatra"
+require "sinatra/r18n"
+require "sinatra/asset_pipeline"
+require "sinatra/partial"
+require "better_errors"
+require "pony"
 class SesjaLinuksowa < Sinatra::Application
 
   configure do
@@ -85,4 +91,5 @@ class SesjaLinuksowa < Sinatra::Application
     haml :error
   end
 
+  run! if app_file == $0
 end
