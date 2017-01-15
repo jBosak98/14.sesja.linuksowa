@@ -24,7 +24,8 @@
         %span#menu-button.fa-bars
         #menu-container.mobile-hidden
           %a{:href => "#about"} O sesji
-          %a{:href => "#live"} Poprzednia edycja
+          %a{:href => "#callforpapers"} Call for Papers
+          %a{:href => "#wspolpraca"} Współpraca
           %a{:href => "#organizatorzy"} Organizatorzy
           %a{:href => "#kontakt"} Kontakt
     #con-description.con-bg
@@ -63,6 +64,24 @@
           %img{:alt => "Nasz cel", :src => "img/ikony/cel.png"}/
           %h2 Nasz cel
           %p Naszym celem jest promowanie idei wolnego oprogramowania. Wiemy, że Open Source jest coraz bardziej popularny w rozwiązaniach komercyjnych, jak i domowych. I zależy nam na jego popularyzacji.
+    #con-callforpapers.con-bg
+      %span#callforpapers.anchor-jump-link
+      .con-content
+        %h2.bg-text Call for Papers
+        %h2.spacer  
+        .third
+          %h2 Chcesz podzielić się wiedzą?
+          %p Jeśli zajmujesz się zawodowo lub hobbystycznie Linuksem, masz hopla na punkcie tego systemu i chcesz opowiedzieć o tym uczestnikom konferencji, zapraszamy do zgłoszenia swojego wystąpienia.
+        .third
+          %h2 Wygłoś swoją prelekcję!
+          %p Potrzebujemy od ciebie jedynie: imię i nazwisko, kilka słów o sobie, aktualne zdjęcie, tytuł prelekcji i abstrakt oraz ewentualne niestandardowe wymagania techniczne.
+        .third
+          %h2 Skontaktuj się z nami
+          %p
+            Zgłoszenia przyjmujemy mailowo pod adresem
+            %a{:href => "mailto:prelekcje@sesja.linuksowa.pl"} prelekcje@sesja.linuksowa.pl
+            %br/
+            Ostateczny termin przyjmowania zgłoszeń to 6 marca.
     #con-live.con-bg
       %span#live.anchor-jump-link
       .con-content
@@ -80,30 +99,28 @@
           %p
             Agendę, pregelenetów i więcej informacji odnośnie poprzedniej edycji konferencji można znaleźć pod adresem
             %a{:href => "http://13.sesja.linuksowa.pl/pl"} 13.sesja.linuksowa.pl
-      /
-        <div id='map'></div>
-        <div class="con-bg" id="con-wspolpraca">
-        <span class="anchor-jump-link" id="wspolpraca"></span>
-        <div class="con-content">
-        <h2>Współpraca</h2>
-        <h3>Jesteś zainteresowany współpracą z nami? Zapoznaj się z naszą ofertą sponsorską!</h3>
-        <a class="button" href="http://13.sesja.linuksowa.pl/files/13_sesja_oferta_pl.pdf">Oferta sponsorska</a>
-        </div>
-        </div>
-      #con-organizatorzy.con-bg
-        %span#organizatorzy.anchor-jump-link
-        .con-content
-          %h2.bg-text Organizatorzy
-          %h2.spacer  
-          .loga
-            .logo-asi
-              %a{:href => "http://asi.wroclaw.pl"}
-                %img{:src => "img/loga/logo-asi.png"}/
-          .loga.organizatorzy
-            %a{:href => "http://www.pwr.edu.pl"}
-              %img{:src => "img/loga/logo-pwr.png"}/
-            %a{:href => "http://manus.pl"}
-              %img{:src => "img/loga/logo-manus.png"}/
+    / #map
+    #con-wspolpraca.con-bg
+      %span#wspolpraca.anchor-jump-link
+      .con-content
+        %h2 Współpraca
+        %h3 Jesteś zainteresowany współpracą z nami? Zapoznaj się z naszą ofertą sponsorską!
+        %a.button{:href => "pdf/offer_pl.pdf"} Oferta sponsorska
+    
+    #con-organizatorzy.con-bg
+      %span#organizatorzy.anchor-jump-link
+      .con-content
+        %h2.bg-text Organizatorzy
+        %h2.spacer  
+        .loga
+          .logo-asi
+            %a{:href => "http://asi.wroclaw.pl"}
+              %img{:src => "img/loga/logo-asi.png"}/
+        .loga.organizatorzy
+          %a{:href => "http://www.pwr.edu.pl"}
+            %img{:src => "img/loga/logo-pwr.png"}/
+          %a{:href => "http://manus.pl"}
+            %img{:src => "img/loga/logo-manus.png"}/
       #con-kontakt.con-bg
         %span#kontakt.anchor-jump-link
         .con-content
@@ -120,7 +137,7 @@
           %a{:href => "http://asi.wroclaw.pl"} Akademickie Stowarzyszenie Informatyczne
           |
           %a{:href => "http://pwr.edu.pl"} Politechnika Wrocławska
--#      / Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
--#      %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}
+      -# / Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
+      -# %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}
       %script{:src => "js/jquery-2.1.1.min.js"}
       %script{:src => "js/style.js"}

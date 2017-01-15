@@ -1,5 +1,5 @@
 /*
- * 2016 Kajetan Krykwiński
+ * 2015-2017 Kajetan Krykwiński
  * kitor.pl
  */
 
@@ -326,7 +326,7 @@ a img{
 /* kontener opisów (O sesji) */
 
 #con-about{
-	background: #EEE;
+	background: #FFF;
 	}
 
 #con-about .third{
@@ -484,11 +484,11 @@ a img{
 
 /* kontener Call for Papers */
 
-#con-callforpapers{
-//	background-color: #EEE;
-	background: #eee url('/img/bg_pingwin.png') right top no-repeat;
-	}
 
+#con-callforpapers{
+	background-color: #EEE;
+//	background: #eee url('/img/bg_pingwin.png') right top no-repeat; 
+	}
 
 #con-organizatorzy{
 	background-color: #EEE;
@@ -533,7 +533,7 @@ a img{
 	text-align: center;
 	vertical-align: middle;
 	display: table-cell;
-	text-shadow: 0.2em 0.2em 1em #000;
+	text-shadow: 0.3em 0.3em 1.5em #000;
 	}
 
 #con-wspolpraca h2{
@@ -647,7 +647,7 @@ a img{
 /* kontener formularza kontaktowego (Kontakt) */
 #con-kontakt{
  	/* background-color: #EEE;  */
-	background: url('/img/bg_pingwin.png') right top no-repeat;
+	background: #FFF url('/img/bg_pingwin.png') right top no-repeat;
 	}
 
 #con-kontakt .con-content{
