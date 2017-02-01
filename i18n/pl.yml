@@ -1,24 +1,55 @@
 meta:
-  name: "Sesja Linuksowa"
+  name: "14. Sesja Linuksowa"
   author: "Akademickie Stowarzyszenie Informatyczne"
   description: "Sesja Linuksowa to największa w Polsce konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."
   locale: "pl_PL"
 navigation:
   about: "O Sesji"
+  cfp: "Call for Papers"
   previous: "Poprzednia edycja"
-  team: "Zespół"
+  sponsorship: "Współpraca"
+  orgs: "Organizatorzy"
   contact: "Kontakt"
-strings:
-  team: "Nasz zespół"
-team:
-  coordinator: "Koordynator"
-forms:
-  name: "Imię i nazwisko"
-  email: "Adres email"
-  question: "O co chciałbyś nas zapytać?"
-  topic: "Temat prelekcji?"
-  abstract: "Opcjonalne ale mile widziane."
-  duration: "Jak długa będzie Twoja prelekcja? Wielokrotności 30 minut."
-  description: "Krótki opis prelekcji, będzie umieszczony na stronie."
-  aboutyou: "Krótki opis prelegenta, będzie umieszczony na stronie."
-  submit: "Wyślij"
+contact:
+  form:
+    name: "Imię i nazwisko"
+    email: "Email"
+    content: "Pytania? Sugestie? Wpisz je tutaj!"
+    submit: "Wyślij"
+about:
+  p1:
+    header: "Czym jest sesja?"
+    content: "Jest to konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."
+  p2:
+    header: "Jak to wygląda?"
+    content: "Udział w Sesji jest darmowy. Co roku na konferencji spotykają się pasjonaci informatyki z całej Polski, aby pogłębić swoją wiedzę i podjąć dyskusję w interesujących ich dziedzinach."
+  p3:
+    header: "Nasz cel"
+    content: "Naszym celem jest promowanie idei wolnego oprogramowania. Wiemy, że Open Source jest coraz bardziej popularny w rozwiązaniach komercyjnych, jak i domowych. I zależy nam na jego popularyzacji."
+cfp:
+  p1:
+    header: "Chcesz podzielić się wiedzą?"
+    content: "Jeśli zajmujesz się zawodowo lub hobbystycznie Linuksem, masz hopla na punkcie tego systemu i chcesz opowiedzieć o tym uczestnikom konferencji, zapraszamy do zgłoszenia swojego wystąpienia."
+  p2:
+    header: "Wygłoś swoją prelekcję!"
+    content: "Potrzebujemy od ciebie jedynie: imię i nazwisko, kilka słów o sobie, aktualne zdjęcie, tytuł prelekcji i abstrakt oraz ewentualne niestandardowe wymagania techniczne."
+  p3:
+    header: "Skontaktuj się z nami"
+    content: |
+      Zgłoszenia przyjmujemy mailowo pod adresem
+      <a href="mailto:prelekcje@sesja.linuksowa.pl">prelekcje@sesja.linuksowa.pl</a>
+      <br/>
+      Ostateczny termin przyjmowania zgłoszeń to 7 kwietnia.
+previous:
+  title: "13. Sesja Linuksowa"
+  p1: "13. Sesja Linuksowa odbyła się w dniach 2-3 kwietnia 2016 roku w Strefie Kultury Studenckiej Politechniki Wrocławskiej."
+  p2: "Numer edycji zabowiązuje - podczas 13. Sesji uczestnicy mieli okazję wysłuchać trzynastu prelekcji. Swoją obecnością ponownie zaszczycił nas Klaus Knopper."
+  p3: 'Agendę, pregelenetów i więcej informacji odnośnie poprzedniej edycji konferencji można znaleźć pod adresem <a href="http://13.sesja.linuksowa.pl/pl">13.sesja.linuksowa.pl</a>'
+sponsorship:
+    content: "Jesteś zainteresowany współpracą z nami? Zapoznaj się z naszą ofertą sponsorską!"
+    link: "Oferta sponsorska"
+    link_href: "pdf/offer_pl.pdf"
+
+title: "14. Sesja Linuksowa | 6-7 maja 2017 | Wrocław, Polska"
+pwr: "Politechnika Wrocławska"
+asi: "Akademickie Stowarzyszenie Informatyczne"
