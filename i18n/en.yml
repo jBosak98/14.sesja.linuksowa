@@ -1,15 +1,55 @@
 meta:
-  name: "Linux Session"
+  name: "14th Linux Session"
   author: "Academic IT Association"
-  description: "Linux Session is the biggest Polish conference oriented towards newest trends and developments in the GNU/Linux family of systems."
+  description: "Sesja Linuksowa to największa w Polsce konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."
   locale: "en_GB"
-forms:
-  name: "Full name"
-  email: "Email"
-  question: "What would you like to ask us?"
-  topic: "What's the topic of your talk?"
-  abstract: "Optional, but very welcome."
-  duration: "How long will your talk be? Multiple of 30 minutes"
-  description: "Brief description of the talk will be put on the website." 
-  aboutyou: "Briefly describe yourself, this will be put on the website."
-  submit: "Submit"
+navigation:
+  about: "About"
+  cfp: "Call for Papers"
+  previous: "Previous edition"
+  sponsorship: "Sponsorship"
+  orgs: "Organizers"
+  contact: "Contact us"
+contact:
+  form:
+    name: "Name and surname"
+    email: "Your email"
+    content: "Got any questions or suggestions? Write them here."
+    submit: "Send"
+about:
+  p1:
+    header: "What is Linux Session?"
+    content: "Linux Session is a conference about Open Source solutions and latest trends in Linux-based systems"
+  p2:
+    header: "How does this work?"
+    content: "Entry is free. Every year enthusiasts and professionals visit us to learn and share their knowledge"
+  p3:
+    header: "Why?"
+    content: "We want to promote the idea of free software. We know that open source if getting more and more popular in commercial solutions and we want to promote it even more"
+cfp:
+  p1:
+    header: "Want to share your knowledge?"
+    content: "Are you an enthusiast or a professional working on Linux? Want to talk about it? Send us an email!"
+  p2:
+    header: "Give a talk!"
+    content: "We only need your first and last name, few words about yourself, picture or avatar, talk name and an abstract. Be sure to let us know about any custom technical requirements."
+  p3:
+    header: "Contact us!"
+    content: |
+      We accept talk submissions by mail
+      <a href="mailto:talks@sesja.linuksowa.pl">talks@sesja.linuksowa.pl</a>
+      <br/>
+      Talk submission deadline is 7th April 2017
+previous:
+  title: "13th Linux Session"
+  p1: "13th Linux Session took place at Wrocław University of Technology, 2nd - 3rd May 2016."
+  p2: "Last year we held 13 talks. We also have been visited again by Klaus Knopper - the creator of Knoppix Linux"
+  p3: 'More infomration can be found at <a href="http://13.sesja.linuksowa.pl/pl">13.sesja.linuksowa.pl</a>'
+sponsorship:
+    content: "Would you like to support us? Here's what we can offer our sponsors!"
+    link: "Sponsorship offer"
+    link_href: "pdf/offer_en.pdf"
+
+title: "14th Linux Session | 6th-7th May 2017 | Wrocław, Poland"
+pwr: "Wrocław University of Technology"
+asi: "Academic IT Association"

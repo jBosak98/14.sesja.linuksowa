@@ -5,7 +5,7 @@
     %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
     %meta{:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0", :name => "viewport"}/
     %meta{:content => t.meta.name, :property => "og:site_name"}/
-    %meta{:content => "pl_pl", :property => "og:locale"}/
+    %meta{:content => t.meta.locale, :property => "og:locale"}/
     %meta{:content => "website", :property => "og:type"}/
     %meta{:content => t.title, :property => "og:title"}/
     %meta{:content => "http://14.sesja.linuksowa.pl/", :property => "og:url"}/
@@ -55,15 +55,15 @@
         .third
           %img{:alt => "Czym jest sesja?", :src => "img/ikony/coTo.png"}/
           %h2=t.about.p1.header
-          %p=t.about.p1.content 
+          %p=t.about.p1.content
         .third
           %img{:alt => "Jak to wygląda?", :src => "img/ikony/jakWyglada.png"}/
           %h2=t.about.p2.header
-          %p=t.about.p2.content 
+          %p=t.about.p2.content
         .third
           %img{:alt => "Nasz cel", :src => "img/ikony/cel.png"}/
-          %h2=t.about.p2.header
-          %p=t.about.p2.content 
+          %h2=t.about.p3.header
+          %p=t.about.p3.content
     #con-callforpapers.con-bg
       %span#callforpapers.anchor-jump-link
       .con-content
@@ -71,13 +71,13 @@
         %h2.spacer  
         .third
           %h2=t.cfp.p1.header
-          %p=t.cfp.p1.content 
+          %p=t.cfp.p1.content
         .third
           %h2=t.cfp.p2.header
-          %p=t.cfp.p2.content 
+          %p=t.cfp.p2.content
         .third
           %h2=t.cfp.p3.header
-          %p=t.cfp.p3.content 
+          %p=t.cfp.p3.content
     #con-live.con-bg
       %span#live.anchor-jump-link
       .con-content
@@ -99,7 +99,7 @@
         %h2=t.navigation.sponsorship
         %h3=t.sponsorship.content
         %a.button{:href => t.sponsorship.link_href}=t.sponsorship.link
-    
+
     #con-organizatorzy.con-bg
       %span#organizatorzy.anchor-jump-link
       .con-content
