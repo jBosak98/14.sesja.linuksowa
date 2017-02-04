@@ -20,7 +20,7 @@
     #con-head.con-bg
       .con-content
         %a{:href => "#top"}
-          %img{:src => "img/logo-male-pl.png"}/
+          %img{:src => t.navigation.logo}/
         %span#menu-button.fa-bars
         #menu-container.mobile-hidden
           %a{:href => "#about"}=t.navigation.about
@@ -28,6 +28,9 @@
           %a{:href => "#wspolpraca"}=t.navigation.sponsorship
           %a{:href => "#organizatorzy"}=t.navigation.orgs
           %a{:href => "#kontakt"}=t.navigation.contact
+          %a.lang-switch{:href => t.navigation.lang_url}
+            %img{:alt => "", :src => t.navigation.lang_flag}
+            %span.mobile-only=t.navigation.lang_text
     #con-description.con-bg
       %span#top.anchor-jump-link
       .main-bg-container{:style => "background-image: url('img/tla/1.jpg')"}
@@ -39,7 +42,7 @@
           %span
             %img{:src => "img/squares-empty.png"}/
         #logo-container
-          %img{:alt => "14. Sesja Linuksowa", :src => "img/logo-duze-pl.png"}/
+          %img{:alt => "14. Sesja Linuksowa", :src => t.description.logo}/
         .social
           %a{:href => "https://www.facebook.com/sesjalinuksowa"}
             %img{:alt => "", :src => "img/squares-facebook.png"}/
