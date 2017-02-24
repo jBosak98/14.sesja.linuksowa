@@ -425,7 +425,7 @@ img {
 	bottom: 100px;
 	right: 10px;
 	font-size: 14px;
-	background: url(media/images/arrow-up.png) center top no-repeat;
+	background: url(../img/arrow-up.png) center top no-repeat;
 }
 
 #arrow-up a {
