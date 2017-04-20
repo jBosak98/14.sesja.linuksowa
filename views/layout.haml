@@ -24,9 +24,10 @@
         %span#menu-button.fa-bars
         #menu-container.mobile-hidden
           %a{:href => "#about"}=t.navigation.about
-          %a{:href => "#callforpapers"}=t.navigation.cfp
-          %a{:href => "#wspolpraca"}=t.navigation.sponsorship
-          %a{:href => "#organizatorzy"}=t.navigation.orgs
+          %a{:href => "#agenda"}=t.navigation.agenda
+          %a{:href => "#warsztaty"}=t.navigation.workshops
+          %a{:href => "#dojazd"}=t.navigation.dojazd
+          %a{:href => "#sponsorzy"}=t.navigation.sponsors
           %a{:href => "#kontakt"}=t.navigation.contact
           %a.lang-switch{:href => t.navigation.lang_url}
             %img{:alt => "", :src => t.navigation.lang_flag}
@@ -67,37 +68,186 @@
           %img{:alt => "Nasz cel", :src => "img/ikony/cel.png"}/
           %h2=t.about.p3.header
           %p=t.about.p3.content
-    #con-callforpapers.con-bg
-      %span#callforpapers.anchor-jump-link
-      .con-content
-        %h2.bg-text=t.navigation.cfp
-        %h2.spacer  
-        .third
-          %h2=t.cfp.p1.header
-          %p=t.cfp.p1.content
-        .third
-          %h2=t.cfp.p2.header
-          %p=t.cfp.p2.content
-        .third
-          %h2=t.cfp.p3.header
-          %p=t.cfp.p3.content
     #con-live.con-bg
       %span#live.anchor-jump-link
       .con-content
-        %h2.bg-text=t.previous.title
+        %h2.bg-text=t.live.title
         %h2.spacer  
+        .third
+          %h2=t.live.p1.header
+          %p=t.live.p1.content
+        .third
+          %h2=t.live.p2.header
+          %p=t.live.p2.content
+        .third
+          %h2=t.live.p3.header
+          %p=t.live.p3.content
         .embed-container
           %iframe{:allowfullscreen => "", :frameborder => "0", :src => "https://www.youtube.com/embed/videoseries?list=PLTvZBPQxCI8GZvERUrxAXMqHq_eQ2nD41"}
         .third
           %p
-            %b=t.previous.p1
+            %b=t.live.p4.content
         .third
-          %p=t.previous.p2
+          %p=t.live.p5.content
         .third
-          %p=t.previous.p3
-    -# map
-    #con-callforpapers.con-bg
-      %span#callforpapers.anchor-jump-link
+          %p=t.live.p6.content
+    #con-agenda.con-bg
+      %span#agenda.anchor-jump-link
+      .con-content
+        %h2.bg-text="Agenda"
+        %h2.spacer="&nbsp;"
+        #agenda-sobota
+          .half
+            %h3
+              %span.data=t.agenda.saturday.date
+              =t.agenda.saturday.day
+            .prelekcja
+              .godzina=t.agenda.saturday.p1.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p1.title
+                  %span.lang=t.agenda.saturday.p1.lang
+                .autor=t.agenda.saturday.p1.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p2.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p2.title
+                  %span.lang=t.agenda.saturday.p2.lang
+                .autor=t.agenda.saturday.p2.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p3.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p3.title
+                  %span.lang=t.agenda.saturday.p3.lang
+                .autor=t.agenda.saturday.p3.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p4.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p4.title
+                  %span.lang=t.agenda.saturday.p4.lang
+                .autor=t.agenda.saturday.p4.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p5.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p5.title
+                  %span.lang=t.agenda.saturday.p5.lang
+                .autor=t.agenda.saturday.p5.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p6.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p6.title
+                  %span.lang=t.agenda.saturday.p6.lang
+                .autor=t.agenda.saturday.p6.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p7.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p7.title 
+                  %span.lang=t.agenda.saturday.p7.lang
+                .autor=t.agenda.saturday.p7.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p8.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p8.title 
+                  %span.lang=t.agenda.saturday.p8.lang
+                .autor=t.agenda.saturday.p8.author
+          .half
+            %h3
+              %span.data=t.agenda.sunday.date 
+              =t.agenda.sunday.day
+            .prelekcja
+              .godzina=t.agenda.sunday.p1.time
+              .opis
+                .tytul
+                  =t.agenda.sunday.p1.title
+                  %span.lang=t.agenda.sunday.p1.lang
+                .autor=t.agenda.sunday.p1.author
+            .prelekcja
+              .godzina=t.agenda.sunday.p2.time
+              .opis
+                .tytul
+                  =t.agenda.sunday.p2.title
+                  %span.lang=t.agenda.sunday.p2.lang
+                .autor=t.agenda.sunday.p2.author
+            .prelekcja
+              .godzina=t.agenda.sunday.p3.time
+              .opis
+                .tytul
+                  =t.agenda.sunday.p3.title
+                  %span.lang=t.agenda.sunday.p3.lang
+                .autor=t.agenda.sunday.p3.author
+            .prelekcja
+              .godzina=t.agenda.sunday.p4.time
+              .opis
+                .tytul
+                  =t.agenda.sunday.p4.title
+                  %span.lang=t.agenda.sunday.p4.lang
+                .autor=t.agenda.sunday.p4.author
+            .prelekcja
+              .godzina=t.agenda.sunday.p5.time
+              .opis
+                .tytul
+                  =t.agenda.sunday.p5.title
+                  %span.lang=t.agenda.sunday.p5.lang
+                .autor=t.agenda.sunday.p5.author
+            .prelekcja
+              .godzina=t.agenda.sunday.p6.time
+              .opis
+                .tytul
+                  =t.agenda.sunday.p6.title
+                  %span.lang=t.agenda.sunday.p6.lang
+                .autor=t.agenda.sunday.p6.author
+            .prelekcja
+              .godzina=t.agenda.sunday.p7.time
+              .opis
+                .tytul
+                  =t.agenda.sunday.p7.title
+                  %span.lang=t.agenda.sunday.p7.lang
+                .autor=t.agenda.sunday.p7.author
+    #con-warsztaty.con-bg
+      %span#warsztaty.anchor-jump-link
+      .con-content
+        %h2.bg-text=t.navigation.workshops
+        %h2.spacer  
+        .opis
+          .half
+            %h2=t.workshops.p1.header
+            %p=t.workshops.p1.content
+          .half
+            %h2=t.workshops.p2.header
+            %p=t.workshops.p2.content
+        .third
+          %h2=t.workshops.p3.header
+          %p=t.workshops.p3.content
+        .third
+          %h2=t.workshops.p4.header
+          %p=t.workshops.p4.content
+        .third
+          %h2=t.workshops.p5.header
+          %p=t.workshops.p5.content
+    #con-dojazd.con-bg
+      %span#dojazd.anchor-jump-link
+      .con-content
+        %h2.bg-text=t.navigation.dojazd
+        %h2.spacer  
+        .third
+          %h2=t.dojazd.p1.header
+          %p=t.dojazd.p1.content
+        .third
+          %h2=t.dojazd.p2.header
+          %p=t.dojazd.p2.content
+        .third
+          %h2=t.dojazd.p3.header
+          %p=t.dojazd.p3.content
+    #map
+    #con-lpi.con-bg
+      %span#lpi.anchor-jump-link
       .con-content
         %h2.bg-text=t.navigation.lpi
         %h2.spacer  
@@ -116,7 +266,34 @@
         %h2=t.navigation.sponsorship
         %h3=t.sponsorship.content
         %a.button{:href => t.sponsorship.link_href}=t.sponsorship.link
-
+    #con-sponsorzy.con-bg
+      %span#sponsorzy.anchor-jump-link
+      .con-content
+        %h2.bg-text=t.navigation.sponsors
+        %h2.spacer  
+        .loga
+          .logo-nokia
+            %a{:href => "http://nokiawroclaw.pl"}
+              %img{:src => "img/loga/logo-nokia.svg"}/
+          .logo-ovh
+            %a{:href => "http://ovh.pl"}
+              %img{:src => "img/loga/logo-ovh.png"}/
+          .logo-rst
+            %a{:href => "http://rst.com.pl/"}
+              %img{:src => "img/loga/logo-rst.png"}/
+          .logo-lpi
+            %a{:href => "https://www.lpi.org/"}
+              %img{:src => "img/loga/logo-lpi.png"}/
+      .con-content
+        %h2.bg-text=t.navigation.patrons
+        %h2.spacer  
+        .loga.patroni
+          %a{:href => "http://chip.pl"}
+            %img.third{:src => "img/loga/patron-chip.png"}/
+          %a{:href => "http://pdasite.pl"}
+            %img.third{:src => "img/loga/patron-pdasite.png"}/
+          %a{:href => "https://www.hswro.org/"}
+            %img.third{:src => "img/loga/patron-hs.png"}/
     #con-organizatorzy.con-bg
       %span#organizatorzy.anchor-jump-link
       .con-content
@@ -131,6 +308,10 @@
             %img{:src => "img/loga/logo-pwr.png"}/
           %a{:href => "http://manus.pl"}
             %img{:src => "img/loga/logo-manus.png"}/
+          %a{:href => "http://wireless-group.pwr.wroc.pl/"}
+            %img{:src => "img/loga/logo-wg.png"}/
+          %a{:href => "http://wireless-group.pwr.wroc.pl/"}
+            %img{:src => "img/loga/logo-nomad.png"}/
       #con-kontakt.con-bg
         %span#kontakt.anchor-jump-link
         .con-content
@@ -148,6 +329,6 @@
           |
           %a{:href => "http://pwr.edu.pl"}=t.pwr
       -# / Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
-      -# %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}
+      %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}
       %script{:src => "js/jquery-2.1.1.min.js"}
       %script{:src => "js/style.js"}

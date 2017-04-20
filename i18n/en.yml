@@ -7,11 +7,16 @@ navigation:
   logo: "img/logo-male-en.png"
   about: "About"
   cfp: "Call for Papers"
+  agenda: "Agenda"
   previous: "Previous edition"
   sponsorship: "Sponsorship"
+  sponsors: "Sponsors"
+  workshops: "Workshops"
   orgs: "Organizers"
+  dojazd: "Location"
   contact: "Contact us"
   lpi: LPI Exams
+  patrons: "Patrons"
   lang_url: "pl"
   lang_flag: "img/icon-pl.png"
   lang_text: "Wersja polska"
@@ -47,11 +52,60 @@ cfp:
       <a href="mailto:talks@sesja.linuksowa.pl">talks@sesja.linuksowa.pl</a>
       <br/>
       Talk submission deadline is 7th April 2017
-previous:
-  title: "13th Linux Session"
-  p1: "13th Linux Session took place at Wrocław University of Technology, 2nd - 3rd May 2016."
-  p2: "Last year we held 13 talks. We also have been visited again by Klaus Knopper - the creator of Knoppix Linux"
-  p3: 'More infomration can be found at <a href="http://13.sesja.linuksowa.pl/pl">13.sesja.linuksowa.pl</a>'
+agenda:
+  saturday:
+    date: "May 6th"
+    day: ".Saturday"
+    p4:
+      title: "Lunch break"
+  sunday:
+    date: "May 7th"
+    day: ".Sunday"
+    p4:
+      title: "Lunch break"
+workshops:
+  p1:
+    header: "About Yocto"
+    content: "<p>Embedded platform estabilished in years 2006 and 2008 by 3 lecturers from University of Cambridge in order to improve future programming skill of new generation students, the first batch sold out in few minutes.</p><p>During a few shor years it became the worlds most popular embedded platform,which grants the ease of learning programming and basic of robotics for a small price.</p>"
+  p2:
+    header: "Covered topic"
+    content: "<p>The point of those workshops is the use of  Yocto to create a gnu/linux distro for Raspberry Pi.</p><p>The main Yocto tool will be introduced -BitBake- used to build recipes and task management. Topic of debugging and controlling BitBake will be covered too.</p><p>Workshops will be held in Polish.</p>"
+  p3:
+    header: "Requirements"
+    content: "Workshops are designated towards people with basic Linux knowledge.<br />Lecture is the introduction to the workshops <i><b>Yocto Project - stwórzmy własną dystrybucję Linuksa dla systemu wbudowanego!</b></i>"
+  p4:
+    header: "Enrollment"
+    content: "Workshops will be held in two parts - during saturday and sunday, from 11:30AM.<br /> The link to the enrollment form will be posted soon."
+  p5:
+    header: "Coaches"
+    content: "Workshops will be held by <b>Łukasz Gardoń</b> and <b>Patryk Czajkowski</b> - employees of Nokia<br /><center><img style=\"max-width: 50%\" src=\"img/loga/logo-nokia.svg\" /></center>"
+live:
+  title: "Live stream"
+  p1:
+    header: "Transmission"
+    content: "From all the lectures during the 13. Sesji Linuksowa we will be streaming live video feed"
+  p2:
+    header: "Youtube"
+    content: "Streaming will be done using ASI channel on Youtube"
+  p3:
+    header: "Playlist"
+    content: "All the video content will be edited for better view experiance and published a few days after the conference. Video content from last year is provided below."
+  p4:
+    content: "13th Linux Session took place at Wrocław University of Technology, 2nd - 3rd May 2016."
+  p5:
+    content: "Last year we held 13 talks. We also have been visited again by Klaus Knopper - the creator of Knoppix Linux"
+  p6:
+    content: 'More infomration can be found at <a href="http://13.sesja.linuksowa.pl/en.html">13.sesja.linuksowa.pl</a>'
+dojazd:
+  p1:
+    header: "Strefa Kultury Studenckiej"
+    content: "Students' Culture Zone is a building located on Wrocław University of Technology campus. The precise address is Hoene-Wrońskiego 10."
+  p2:
+    header: "Public transport"
+    content: "Use any tram or bus heading to a stop called \"Plac Grunwaldzki\". From the stop you'll have to walk for about 500 meters."
+  p3:
+    header: "By car"
+    content: "Please contact us after you have registered for the event and we will arrange a free parking spot."
 lpi:
   p1:
     header: "Details"

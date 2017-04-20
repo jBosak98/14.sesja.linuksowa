@@ -161,7 +161,7 @@ $(document).ready(function() {
     ev.preventDefault();
   });
 }); 
-
+*/
 //mapy googla
 google.maps.event.addDomListener(window, "load", init);
 function init()
@@ -182,7 +182,7 @@ function init()
     map: map,
     icon: image
   })
-}; */
+}; 
 
 
 

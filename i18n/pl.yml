@@ -8,10 +8,15 @@ navigation:
   about: "O Sesji"
   cfp: "Call for Papers"
   previous: "Poprzednia edycja"
+  agenda: "Agenda"
+  workshops: "Warsztaty"
+  dojazd: "Dojazd"
   sponsorship: "Współpraca"
+  sponsors: "Sponsorzy"
   orgs: "Organizatorzy"
   contact: "Kontakt"
   lpi: "Egzaminy LPI"
+  patrons: "Patroni"
   lang_url: "en"
   lang_flag: "img/icon-us.png"
   lang_text: "English version"
@@ -23,6 +28,119 @@ contact:
     email: "Email"
     content: "Pytania? Sugestie? Wpisz je tutaj!"
     submit: "Wyślij"
+agenda: 
+  saturday:
+    date: "6 maja"
+    day: ".Sobota"
+    p1:
+      title: "Yocto Project - stwórzmy własną dystrybucję Linuksa dla systemu wbudowanego! "
+      time: "10:00-11:00"
+      lang: "[pl]"
+      author: "Marcin Słoniewski"
+      desc: ""
+    p2:
+      title: "Usually Slightly Broken (USB) devices and what you can do with them? "
+      time: "11:00-12:00"
+      lang: "[pl]"
+      author: "Krzysztof Opasiak"
+      desc: ""
+    p3:
+      title: "Przyrządzanie koszernych paczek RPM i DEB dla zajętych "
+      time: "12:00-13:00"
+      lang: "[pl]"
+      author: "Stanisław Klekot"
+      desc: ""
+    p4:
+      title: Przerwa obiadowa
+      time: "13:00-14:00"
+      lang: ""
+      author: ""
+      desc: ""
+    p5:
+      title: "Jak uprzykrzyć życie włamywacza wykorzystując narzędzia systemów GNU/Linux "
+      time: "14:00-15:00"
+      lang: "[pl]"
+      author: "Marcin Tomków"
+      desc: ""
+    p6:
+      title: "Flatpak  nowoczesna dystrybucja programów "
+      time: "15:00-16:00"
+      lang: "[pl]"
+      author: "Bartłomiej Piotrowski"
+      desc: ""
+    p7:
+      title: "Opis wkrótce "
+      time: "16:00-17:00"
+      lang: "[pl]"
+      author: "Maciej Lasyk"
+      desc: ""
+    p8:
+      title: "Lighting talks "
+      time: "17:00-18:00"
+      lang: "[pl]"
+      author: ""
+      desc: ""
+  sunday:
+    date: "7 maja"
+    day: ".Niedziela"
+    p1:
+      title: "Interfejsy sieciowe w Linuksie - wprowadzenie do czarnej magii "
+      time: "10:00-11:00"
+      lang: "[pl]"
+      author: "Jakub Juszczakiewicz"
+      desc: ""
+    p2:
+      title: "Linux i oszczędzanie energii "
+      time: "11:00-12:00"
+      lang: "[pl]"
+      author: "Rafał Wysocki"
+      desc: ""
+    p3:
+      title: "Windows 10 uruchamia natywne programy z Linuksa. Bash on Ubuntu on Windows "
+      time: "12:00-13:00"
+      lang: "[pl]"
+      author: "Kajetan Krykwiński"
+      desc: ""
+    p4:
+      title: Przerwa obiadowa
+      time: "13:00-14:00"
+      lang: ""
+      author: ""
+      desc: ""
+    p5:
+      title: "CDS - simple, scalable, powerfull CI/CD solution "
+      time: "14:00-15:00"
+      lang: "[en]"
+      author: "Szymon Datko / <b>OVH.pl</b>"
+      desc: ""
+    p6:
+      title: "The practical aspects of YOCTO "
+      time: "15:00-16:00"
+      lang: "[en]"
+      author: "Marcin Gudajczyk / <b>Nokia</b>"
+      desc: ""
+    p7:
+      title: "Opis wkrótce "
+      time: "16:00-17:00"
+      lang: "[pl]"
+      author: "<b>LPI</b>"
+      desc: ""
+workshops:
+  p1:
+    header: "O Yocto"
+    content: "<p>Platforma wbudowana skonstruowana na przełomie 2006 i 2008 roku, przez 3 wykładowców Uniwersytetu Cambridge w celu poprawy umiejętności programistycznych przyszłych studentów, wyprzedając pierwszy nakład w kilka minut.</p><p>Na przełomie kilku lat stał się najpopularniejszą platformą wbudowaną, która daje łatwy dostęp nauki programowania oraz podstaw robotyki za niewielką cenę.</p>"
+  p2:
+    header: "Tematyka"
+    content: "<p>Celem warsztatów będzie praktycznie wykorzystanie Yocto do stworzenia dystrybucji Linuksowej dedykowanej dla Raspberry Pi.</p><p>Przedstawimy główne narzędzie Yocto jakim jest BitBake służące do budowy przepisów oraz zarządzaniem zadań.</p><p>Poruszymy temat związany z debugowaniem oraz weryfikowaniem zachowania BitBake.</p>"
+  p3:
+    header: "Wymagania"
+    content: "Warsztaty przeznaczone dla osób o podstawowej wiedzy z zakresu Linuksa.<br />Wprowadzeniem do warsztatu jest wykład <i><b>Yocto Project - stwórzmy własną dystrybucję Linuksa dla systemu wbudowanego!</b></i>"
+  p4:
+    header: "Zapisy"
+    content: "Warsztaty odbędą się dwóch turach - w sobotę i w niedzielę, od godziny 11:30.<br /> Wkrótce pojawi się tu odnośnik do formularza zapisowego."
+  p5:
+    header: "Trenerzy"
+    content: "Warsztaty poprowadzą <b>Łukasz Gardoń</b> oraz <b>Patryk Czajkowski</b> - pracownicy firmy Nokia<br /><center><img style=\"max-width: 50%\" src=\"img/loga/logo-nokia.svg\" /></center>"
 about:
   p1:
     header: "Czym jest sesja?"
@@ -33,6 +151,16 @@ about:
   p3:
     header: "Nasz cel"
     content: "Naszym celem jest promowanie idei wolnego oprogramowania. Wiemy, że Open Source jest coraz bardziej popularny w rozwiązaniach komercyjnych, jak i domowych. I zależy nam na jego popularyzacji."
+dojazd:
+  p1:
+    header: "Strefa Kultury Studenckiej"
+    content: "Budynek SKS znajduje się na terenie kampusu Politechniki Wrocławskiej, przy ulicy Hoene-Wrońskiego 10"
+  p2:
+    header: "Komunikacją miejską"
+    content: "Udajemy się dowolną linią jadącą na węzeł Plac Grunwaldzki, a następnie pokonujemy pieszo około 500 metrów."
+  p3:
+    header: "Samochodem"
+    content: "W obrębie kampusu Politechniki Wrocławskiej dostępne jest wiele miejsc parkingowych."
 lpi:
   p1:
     header: "Szczegóły"
@@ -57,11 +185,23 @@ cfp:
       <a href="mailto:prelekcje@sesja.linuksowa.pl">prelekcje@sesja.linuksowa.pl</a>
       <br/>
       Ostateczny termin przyjmowania zgłoszeń to 7 kwietnia.
-previous:
-  title: "13. Sesja Linuksowa"
-  p1: "13. Sesja Linuksowa odbyła się w dniach 2-3 kwietnia 2016 roku w Strefie Kultury Studenckiej Politechniki Wrocławskiej."
-  p2: "Numer edycji zobowiązuje - podczas 13. Sesji uczestnicy mieli okazję wysłuchać trzynastu prelekcji. Swoją obecnością ponownie zaszczycił nas Klaus Knopper."
-  p3: 'Agendę, pregelenetów i więcej informacji odnośnie poprzedniej edycji konferencji można znaleźć pod adresem <a href="http://13.sesja.linuksowa.pl/pl">13.sesja.linuksowa.pl</a>'
+live:
+  title: "Transmisja na żywo"
+  p1:
+    header: "Transmisja"
+    content: "Ze wszystkich prelekcji podczas 13. Sesji Linuksowej dostępna będzie transmisja na żywo"
+  p2:
+    header: "Youtube"
+    content: "Streaming odbędzie się za pośrednicwem kanału Akademickiego Stowarzyszenia Informatycznego w serwisie YouTube"
+  p3:
+    header: "Playlista"
+    content: "W ciągu kilku dni po konferencji udostępnimy pocięte filmy w formie listy odtwarzania. Nagrania z zeszłorocznej odsłony zamieściliśmy poniżej."
+  p4:
+    content: "13. Sesja Linuksowa odbyła się w dniach 2-3 kwietnia 2016 roku w Strefie Kultury Studenckiej Politechniki Wrocławskiej."
+  p5:
+     content: "Numer edycji zobowiązuje - podczas 13. Sesji uczestnicy mieli okazję wysłuchać trzynastu prelekcji. Swoją obecnością ponownie zaszczycił nas Klaus Knopper."
+  p6:
+    content: 'Agendę, pregelenetów i więcej informacji odnośnie poprzedniej edycji konferencji można znaleźć pod adresem <a href="http://13.sesja.linuksowa.pl/pl">13.sesja.linuksowa.pl</a>'
 sponsorship:
     content: "Jesteś zainteresowany współpracą z nami? Zapoznaj się z naszą ofertą sponsorską!"
     link: "Oferta sponsorska"
