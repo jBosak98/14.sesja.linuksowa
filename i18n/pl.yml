@@ -164,7 +164,7 @@ dojazd:
 lpi:
   p1:
     header: "Szczegóły"
-    content: "W trakcie tegorocznej Sesji Linuksowej organizujemy egzaminy Linux Professional Institute. Uczestnicy tylko połowę ceny, czyli 90 Euro (60 EUR dla egzaminu Linux Essentials)."
+    content: "W trakcie tegorocznej Sesji Linuksowej organizujemy egzaminy Linux Professional Institute. Uczestnicy płacą tylko połowę ceny, czyli 90 Euro (60 EUR dla egzaminu Linux Essentials)."
   p2:
     header: "Przygotowanie"
     content: "Uczestnicy egzaminu proszeni są o zgłoszenie się z ważnym dokumentem tożsamości ze zdjęciem oraz obowiązkowo LPI-ID, które można otrzymać rejestrując się na stronie <a href=\"https://cs.lpi.org/caf/Xamman/register\">LINK</a>"
