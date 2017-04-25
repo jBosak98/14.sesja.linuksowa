@@ -213,7 +213,7 @@ a img{
 
 #menu-container span.mobile-only{
 	padding-left: 0.5em;
-	display: none;	
+	display: none;
 	}
 
 #menu-container a.lang-switch{
@@ -257,7 +257,7 @@ a img{
 	background-repeat: no-repeat;
 	background-size: cover;
 	}
-	
+
 #con-description .con-content{
 	background-color: rgba(0,0,0,0.5);
 	color: #FFF;
@@ -276,7 +276,7 @@ a img{
 	}
 
 #logo-container.logo-en{
-	max-width: 1190px !important; 
+	max-width: 1190px !important;
 	}
 
 #logo-container img{
@@ -287,7 +287,7 @@ a img{
 	width: 100%;
 	margin-top : 10pt;
 	}
-	
+
 .social a,
 .social span{
 	display: inline-block;
@@ -296,7 +296,7 @@ a img{
 	max-width: 15%;
 	margin: 0pt 10pt;
 	}
-	
+
 .social a img,
 .social span img{
 	width: 100%;
@@ -305,7 +305,7 @@ a img{
 	transition: opacity .25s ease-in-out;
 
 	}
-	
+
 .social a:hover img{
 	opacity: 1.0;
 	}
@@ -318,7 +318,7 @@ a img{
 #con-description h2{
 	font-size: 2em;
 	}
-	
+
 #con-description h2 a{
 	color: #e0001a;
 	}
@@ -333,13 +333,13 @@ a img{
 #con-prelegenci{
 	background: #EEE;
 	}
-	
+
 #con-agenda{
 	margin-bottom: 1em;
 }
-	
+
 #con-warsztaty{
-	background: #FAFAFA;
+	background: #EEE;
 	}
 
 
@@ -366,6 +366,16 @@ a img{
 	color:	#323f49;
 	text-align: center;
 	}
+
+#con-agenda .extended-link{
+	text-align: center;
+	padding-top: 1em;
+	font-weight: bold;
+}
+
+#con-agenda .extended-link a{
+	color: #F00;
+}
 
 #con-agenda h3 .data,
 .extended-agenda h3 .data{
@@ -455,7 +465,7 @@ a img{
 	margin-left: 19em;
 	overflow: hidden;
 	}
-	
+
 .extended-agenda .opis > div{
 	padding-left: 10pt;
 	}
@@ -501,7 +511,7 @@ a img{
 
 #con-callforpapers{
 	background-color: #EEE;
-//	background: #eee url('/img/bg_pingwin.png') right top no-repeat; 
+//	background: #eee url('/img/bg_pingwin.png') right top no-repeat;
 	}
 
 #con-organizatorzy{
@@ -604,7 +614,7 @@ a img{
 #con-sponsorzy{
 //	background-color: #EEE;
 	}
-	
+
 #con-sponsorzy .loga div{
 	padding-bottom: 2em;
 	}
@@ -632,18 +642,6 @@ a img{
 .logo-nokia img{
 	min-width: 50%;
 }
-
-.logo-tieto{
-	width: 512px;
-	}
-
-.logo-tieto img{
-	height: 150px;
-}
-
-.logo-mokyok{
-	width: 100%;
-	}
 
 #con-sponsorzy .half img,
 #con-sponsorzy img.third,
@@ -885,7 +883,7 @@ textarea {
 	#con-naszzespol .third{
 		max-width: 100%;
 		}
-	
+
 	.loga.organizatorzy a{
 		padding: 0.5em 0;
 		}

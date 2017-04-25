@@ -49,12 +49,12 @@ class SesjaLinuksowa < Sinatra::Application
     redirect "/pl"
   end
 
-  get '/test' do
-    haml :test, :locals => {:edition => settings.edition}, :layout => false
-  end
-
   get '/:locale/?' do
     haml :index, :locals => {:edition => settings.edition}
+  end
+
+  get '/:locale/agenda' do
+    haml :agenda, :locals => {:edition => settings.edition}, :layout => false
   end
 
   post '/:locale/?' do

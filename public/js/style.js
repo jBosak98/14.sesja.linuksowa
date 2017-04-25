@@ -4,7 +4,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
- 
+
 
 
 $(window).scroll(function()
@@ -73,9 +73,9 @@ function switcher() {
 			}
 
 		});
-	} 
-	
-	
+	}
+
+
 function insertbgs() {
 	if(!mobileAndTabletcheck())
 	{
@@ -86,7 +86,7 @@ function insertbgs() {
 			lastNode = lastNode[lastNode.length -1];
 			var div = document.createElement("div");
 			div.className = "main-bg-container";
-			div.style.backgroundImage = "url('img/tla/" + i + ".jpg')";
+			div.style.backgroundImage = "url('/img/tla/" + i + ".jpg')";
 			lastNode.parentNode.insertBefore(div, lastNode.nextSibling);
 		}
 		switcher();
@@ -160,7 +160,7 @@ $(document).ready(function() {
     });
     ev.preventDefault();
   });
-}); 
+});
 */
 //mapy googla
 google.maps.event.addDomListener(window, "load", init);
@@ -175,14 +175,11 @@ function init()
   };
   var mapElement = document.getElementById("map");
   var map = new google.maps.Map(mapElement, mapOptions);
-  var image = "img/map-marker.png";
+  var image = "/img/map-marker.png";
   var myLatLng = new google.maps.LatLng(51.108828, 17.056726);
   var beachMarker = new google.maps.Marker({
     position: myLatLng,
     map: map,
     icon: image
   })
-}; 
-
-
-
+};
