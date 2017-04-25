@@ -16,7 +16,7 @@
   <link rel="stylesheet" type="text/css" href="http://13.sesja.linuksowa.pl/style.css">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700&subset=latin-ext,latin">
   <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <title>Agenda | 13. Sesja Linuksowa | 2-3 kwietnia 2016 | Wrocԡw, Polska</title>
+  <title>Agenda | 13. Sesja Linuksowa | 2-3 kwietnia 2016 | Wrocław, Polska</title>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
   <div class="con-content">
     <a href="#top"><img src="http://13.sesja.linuksowa.pl/img/logo-sesja.png"/></a>
     <span class="fa-bars" id="menu-button"></span>
-    <div id="menu-container" class="mobile-hidden"><a href="http://13.sesja.linuksowa.pl/pl">Powrót do strony głównej</a><a href="#agenda">Agenda</a><a href="#prelegenci">Prelegenci</a><a class="lang-switch" href="http://13.sesja.linuksowa.pl/en/agenda"><span class="mobile-only">English version</span><img src="http://13.sesja.linuksowa.pl/img/icon-us.png" alt="English version"></a></div>
+    <div id="menu-container" class="mobile-hidden"><a href="http://13.sesja.linuksowa.pl/pl.html">Powrót do strony głównej</a><a href="#agenda">Agenda</a><a href="#prelegenci">Prelegenci</a><a class="lang-switch" href="http://13.sesja.linuksowa.pl/en/agenda"><span class="mobile-only">English version</span><img src="http://13.sesja.linuksowa.pl/img/icon-us.png" alt="English version"></a></div>
   </div>
 </div>
 
@@ -218,7 +218,7 @@
     <div class="third">
       <img src="http://13.sesja.linuksowa.pl/img/ludzie/siewca.jpg">
       <h3>Jakub Juszczakiewicz</h3>
-      Student Politechniki Wrocławskiej, programista C++, pasjonat Linuksa. Dawny aktywista ASI. Lubi spędzać wolny czas na wolnym powietrzu i korzystać z wolnego oprogramowania. 
+      Student Politechniki Wrocławskiej, programista C++, pasjonat Linuksa. Dawny aktywista ASI. Lubi spędzać wolny czas na wolnym powietrzu i korzystać z wolnego oprogramowania.
     </div>
     <div class="third">
       <img src="http://13.sesja.linuksowa.pl/img/ludzie/machalek.jpg">

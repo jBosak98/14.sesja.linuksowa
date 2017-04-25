@@ -9,7 +9,7 @@
   <meta content='website' property='og:type'>
   <meta content='13th Linux Session | April 2-3 2016 | Wrocław, Poland' property='og:title'>
   <meta content='http://13.sesja.linuksowa.pl/en/agenda' property='og:url'>
-  <meta content='Linux Session is the biggest polish conference focusing on open source solutions and latest trends in GNU/Linux operating systems.' 
+  <meta content='Linux Session is the biggest polish conference focusing on open source solutions and latest trends in GNU/Linux operating systems.'
 property='og:description'>
   <meta content='http://13.sesja.linuksowa.pl/img/13_linux_session_logo_og.jpg' property='og:image'>
   <link rel="stylesheet" type="text/css" href="http://13.sesja.linuksowa.pl/style.css">
@@ -23,7 +23,7 @@ property='og:description'>
   <div class="con-content">
     <a href="#top"><img src="http://13.sesja.linuksowa.pl/img/logo-sesja-en.png"/></a>
     <span class="fa-bars" id="menu-button"></span>
-    <div id="menu-container" class="mobile-hidden"><a href="http://13.sesja.linuksowa.pl/en">Back to home</a><a href="#agenda">Agenda</a><a href="#prelegenci">Speakers</a><a class="lang-switch" href="http://13.sesja.linuksowa.pl/pl/agenda"><span class="mobile-only">Wersja polska</span><img src="http://13.sesja.linuksowa.pl/img/icon-pl.png" alt="Wersja polska"></a></div>
+    <div id="menu-container" class="mobile-hidden"><a href="http://13.sesja.linuksowa.pl/en.html">Back to home</a><a href="#agenda">Agenda</a><a href="#prelegenci">Speakers</a><a class="lang-switch" href="http://13.sesja.linuksowa.pl/pl/agenda"><span class="mobile-only">Wersja polska</span><img src="http://13.sesja.linuksowa.pl/img/icon-pl.png" alt="Wersja polska"></a></div>
   </div>
 </div>
 
@@ -197,7 +197,7 @@ property='og:description'>
     <div class="third">
       <img src="http://13.sesja.linuksowa.pl/img/ludzie/partyka.jpg">
       <h3>Robert "BoBsoN" Partyka</h3>
-      Vicepresident of Polish Linux User's Group. Programmer, fan of innovative technolgies and sci-fi literature. Deeply involved in initiatives promoting free and open-source software.      
+      Vicepresident of Polish Linux User's Group. Programmer, fan of innovative technolgies and sci-fi literature. Deeply involved in initiatives promoting free and open-source software.
     </div>
     <div class="third">
       <img src="http://13.sesja.linuksowa.pl/img/ludzie/opasiak.jpg">
@@ -217,7 +217,7 @@ property='og:description'>
       <img src="http://13.sesja.linuksowa.pl/img/ludzie/siewca.jpg">
       <h3>Jakub Juszczakiewicz</h3>
       Student at Wrocław University of Technology, C++ programmer and a Linux enthusiast. ASI alumnus. Enjoys open-source software and open air activities of all kinds.
-    </div> 
+    </div>
     <div class="third">
       <img src="http://13.sesja.linuksowa.pl/img/ludzie/machalek.jpg">
       <h3>Jakub Machałek</h3>
@@ -232,7 +232,7 @@ property='og:description'>
       <img src="http://13.sesja.linuksowa.pl/img/ludzie/kowalczyk.jpg">
       <h3>Michał Kowalczyk</h3>
       Experienced software engineer working mostly on Linux-based soltions. Mostly interested in systems programming for ARM-based devices. In his free time he works on technologies related to Internet of Things
-    </div> 
+    </div>
     <div class="third">
       <img src="http://13.sesja.linuksowa.pl/img/ludzie/wieczorek.jpg">
       <h3>Paweł Wieczorek</h3>
