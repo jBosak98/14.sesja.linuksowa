@@ -85,12 +85,12 @@ agenda:
       photo: "/img/ludzie/piotrowski.jpg"
       desc: "<p>Klasyczny model dystrybucji oprogramowania, scentralizowany w samych dystrybucjach Linuksa, nie jest pozbawiony wad. Nieograniczone uprawnienia programów, nieistniejący wpływ programistów na opiekunów, ignorowanie małych projektów to tylko niektóre z problemów, które można wytknąć standardowym dystrybucjom. Przez ostatnie lata pojawiło się kilka narzędzi, starających się zagarnąć swój kawałek tortu w temacie uniwersalnych pakietów.</p><p>Dlaczego Flatpak wydaje się być faworytem, jak działa, w jaki sposób ułatwia to życie klasycznym dystrybucjom i zwykłym użytkowników oraz jak stworzyć własny pakiet – na te pytanie odpowie nasza prezentacja.</p>"
     p7:
-      title: "Opis wkrótce "
+      title: "Systemd: Poza strefą komfortu "
       time: "16:00-17:00"
       lang: "[pl]"
       author: "Maciej Lasyk"
       photo: "/img/ludzie/lasyk.jpg"
-      desc: ""
+      desc: "<p>W trakcie tej prezentacji chciałbym wam pokazać do czego można użyć systemd poza funkcjami, z których jest najbardziej popularny (vide: init - system). Część tych dodatkowych funkcji jest mało popularna lub też zastępuje dotychczas używane i znane rozwiązania - stąd też tytułowe nawiązanie do opuszczenia strefy komfortu. Postaram się omówić w jaki sposób korzystać z dystrybucji zawierających systemd w Google Cloudzie czy AWSie.</p>"
     p8:
       title: "Lightning talks "
       time: "17:00-18:00"
@@ -102,7 +102,7 @@ agenda:
     day: ".Niedziela"
     p1:
       title: "DevOps Tools Explained: Update Your Arsenal "
-      time: "16:00-17:00"
+      time: "10:00-11:00"
       lang: "[en]"
       author: "Fabian Thorns / <b>LPI</b>"
       photo: "/img/ludzie/unknown.jpg"
@@ -143,7 +143,7 @@ agenda:
       desc: "Nie chcę podchodzić do tematu YOCTO z typowym opisem detali technicznych. Zamiast tego, korzystając z mojego doświadczenia w zakresie konfiguracji i integracji oprogramowania, chciałbym zaprezentować kilka anegdot, przedstawiających zyski jakie można osiągnąć z użycia YOCTO w projekcie oraz jakie problemy YOCTO pomoże faktycznie rozwiązać."
     p7:
       title: "Interfejsy sieciowe w Linuksie - wprowadzenie do czarnej magii "
-      time: "10:00-11:00"
+      time: "16:00-17:00"
       lang: "[pl]"
       author: "Jakub Juszczakiewicz"
       photo: "/img/ludzie/siewca.jpg"
