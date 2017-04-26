@@ -643,6 +643,11 @@ a img{
 	min-width: 50%;
 }
 
+.logo-spacer{
+	width: 3em;
+	display: inline-block;
+}
+
 #con-sponsorzy .half img,
 #con-sponsorzy img.third,
 #con-sponsorzy .tieto img{
