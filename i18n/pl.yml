@@ -215,13 +215,14 @@ workshops:
     content: "<p>Platforma wbudowana skonstruowana na przełomie 2006 i 2008 roku, przez 3 wykładowców Uniwersytetu Cambridge w celu poprawy umiejętności programistycznych przyszłych studentów, wyprzedając pierwszy nakład w kilka minut.</p><p>Na przełomie kilku lat stał się najpopularniejszą platformą wbudowaną, która daje łatwy dostęp nauki programowania oraz podstaw robotyki za niewielką cenę.</p>"
   p2:
     header: "Tematyka"
-    content: "<p>Celem warsztatów będzie praktycznie wykorzystanie Yocto do stworzenia dystrybucji Linuksowej dedykowanej dla Raspberry Pi.</p><p>Przedstawimy główne narzędzie Yocto jakim jest BitBake służące do budowy przepisów oraz zarządzaniem zadań.</p><p>Poruszymy temat związany z debugowaniem oraz weryfikowaniem zachowania BitBake.</p>"
+    content: "<p>Celem warsztatów będzie praktycznie wykorzystanie Yocto do stworzenia dystrybucji Linuksowej dedykowanej dla Raspberry Pi.</p><p>Przedstawimy główne narzędzie Yocto jakim jest BitBake służące do budowy przepisów oraz zarządzaniem zadań.</p><p>Poruszymy temat związany z debugowaniem oraz weryfikowaniem zachowania BitBake.</p>
+<center><b>Agenda i ważne informacje na temat warsztatów: <a href=\"/pdf/workshops_pl.pdf\">LINK</a></b></p>"
   p3:
     header: "Wymagania"
     content: "Warsztaty przeznaczone dla osób o podstawowej wiedzy z zakresu Linuksa.<br />Wprowadzeniem do warsztatu jest wykład <i><b>Yocto Project - stwórzmy własną dystrybucję Linuksa dla systemu wbudowanego!</b></i>"
   p4:
     header: "Zapisy"
-    content: "Warsztaty odbędą się dwóch turach - w sobotę i w niedzielę, od godziny 11:30.<br /> Wkrótce pojawi się tu odnośnik do formularza zapisowego."
+    content: "Warsztaty odbędą się dwóch turach - w sobotę i w niedzielę, od godziny 11:30.<br /><center><a style=\"color:red\" href=\"https://goo.gl/forms/McdKyreSG2OCm7F63\">Zapisy na poziom podstawowy<br /><a style=\"color:red\" href=\"https://goo.gl/forms/54Ir3Zex5fbNue5y2\">Zapisy na poziom rozszerzony</center></a></p>"
   p5:
     header: "Trenerzy"
     content: "Warsztaty poprowadzą <b>Łukasz Gardoń</b> oraz <b>Patryk Czajkowski</b> - pracownicy firmy Nokia<br /><center><img style=\"max-width: 50%\" src=\"/img/loga/logo-nokia.svg\" /></center>"
