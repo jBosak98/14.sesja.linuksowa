@@ -97,9 +97,7 @@ workshops:
     content: "Workshops are designated towards people with basic Linux knowledge.<br />Lecture is the introduction to the workshops <i><b>Yocto Project - stwórzmy własną dystrybucję Linuksa dla systemu wbudowanego!</b></i>"
   p4:
     header: "Enrollment"
-    content: "Workshops will be held in two parts - during saturday and sunday, from 11:30AM.<br />
-<center style=\"color:red\"><a href=\"https://goo.gl/forms/McdKyreSG2OCm7F63\">Registration for the basic level.<br />
-<a href=\"https://goo.gl/forms/54Ir3Zex5fbNue5y2\">Registration for the advanced level.</center>"
+    content: "Workshops will be held in two parts - during saturday and sunday, from 11:30AM.<br /><center>Registration is closed. Qualified participants will be informed via e-mail.</center>"
   p5:
     header: "Coaches"
     content: "Workshops will be held by <b>Łukasz Gardoń</b> and <b>Patryk Czajkowski</b> - employees of Nokia<br /><center><img style=\"max-width: 50%\" src=\"/img/loga/logo-nokia.svg\" /></center>"

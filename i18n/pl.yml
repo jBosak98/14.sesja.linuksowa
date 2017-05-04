@@ -222,7 +222,7 @@ workshops:
     content: "Warsztaty przeznaczone dla osób o podstawowej wiedzy z zakresu Linuksa.<br />Wprowadzeniem do warsztatu jest wykład <i><b>Yocto Project - stwórzmy własną dystrybucję Linuksa dla systemu wbudowanego!</b></i>"
   p4:
     header: "Zapisy"
-    content: "Warsztaty odbędą się dwóch turach - w sobotę i w niedzielę, od godziny 11:30.<br /><center><a style=\"color:red\" href=\"https://goo.gl/forms/McdKyreSG2OCm7F63\">Zapisy na poziom podstawowy<br /><a style=\"color:red\" href=\"https://goo.gl/forms/54Ir3Zex5fbNue5y2\">Zapisy na poziom rozszerzony</center></a></p>"
+    content: "Warsztaty odbędą się dwóch turach - w sobotę i w niedzielę, od godziny 11:30.<br /><center>Zapisy zostały zakończone. Osoby wytypowane do warsztatów powiadomimy mailowo.</center></a></p>"
   p5:
     header: "Trenerzy"
     content: "Warsztaty poprowadzą <b>Łukasz Gardoń</b> oraz <b>Patryk Czajkowski</b> - pracownicy firmy Nokia<br /><center><img style=\"max-width: 50%\" src=\"/img/loga/logo-nokia.svg\" /></center>"
