@@ -73,6 +73,8 @@
       .con-content
         %h2.bg-text=t.live.title
         %h2.spacer  
+        .embed-container
+          %iframe{:allowfullscreen => "", :frameborder => "0", :src => "https://www.youtube.com/embed/f9IqI_fGsT8"}
         .third
           %h2=t.live.p1.header
           %p=t.live.p1.content
@@ -82,15 +84,13 @@
         .third
           %h2=t.live.p3.header
           %p=t.live.p3.content
-        .embed-container
-          %iframe{:allowfullscreen => "", :frameborder => "0", :src => "https://www.youtube.com/embed/videoseries?list=PLTvZBPQxCI8GZvERUrxAXMqHq_eQ2nD41"}
-        .third
-          %p
-            %b=t.live.p4.content
-        .third
-          %p=t.live.p5.content
-        .third
-          %p=t.live.p6.content
+        /.third
+        /  %p
+        /    %b=t.live.p4.content
+        /.third
+        /  %p=t.live.p5.content
+        /.third
+        /  %p=t.live.p6.content
     #con-agenda.con-bg
       %span#agenda.anchor-jump-link
       .con-content
