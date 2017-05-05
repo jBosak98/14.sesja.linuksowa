@@ -119,7 +119,7 @@ agenda:
       time: "12:00-13:00"
       lang: "[pl]"
       author: "Kajetan Krykwiński"
-      photo: "/img/ludzie/unknown.jpg"
+      photo: "/img/ludzie/krykwinski.jpg"
       desc: "<p>W zeszłym roku Microsoft zaskoczył wiele osób ogłaszając Bash on Ubuntu on Windows. Projekt obiecywał uruchamianie niezmodyfikowanych linuksowych narzędzi deweloperskich w systemie Windows 10, bez użycia wirtualnej maszyny.</p><p>Jednak czy tylko narzędzia deweloperskie? Jak działa i co właściwie potrafi Windows Subsystem for Linux? W końcu mowa tu o >>niezmodyfikowanych<< programach.</p><p>Prelekcja wprowadzi w rozwiązania techniczne stojące za WSL, zademonstruje jego możliwości z punktu widzenia dewelopera jak i zwykłego użytkownika oraz odpowie na pytanie czy Microsoft łamie licencję GNU GPL nie udostępniając kodów źródłowych jądra systemu Windows ;)</p>"
     p4:
       title: Przerwa obiadowa
