@@ -15,6 +15,7 @@ navigation:
   sponsors: "Sponsorzy"
   speakers: "Prelegenci"
   orgs: "Organizatorzy"
+  live: "Nagrania"
   contact: "Kontakt"
   lpi: "Egzaminy LPI"
   patrons: "Patroni"
@@ -271,16 +272,16 @@ cfp:
       <br/>
       Ostateczny termin przyjmowania zgłoszeń to 7 kwietnia.
 live:
-  title: "Transmisja na żywo"
+  title: "Nagrania z 14 Sesji Linuksowej"
   p1:
     header: "Transmisja"
-    content: "Ze wszystkich prelekcji podczas 14. Sesji Linuksowej dostępna będzie transmisja na żywo"
+    content: "Ze wszystkich prelekcji podczas 14. Sesji Linuksowej dostępna była transmisja na żywo"
   p2:
     header: "Youtube"
-    content: "Streaming odbędzie się za pośrednicwem kanału Akademickiego Stowarzyszenia Informatycznego w serwisie YouTube"
+    content: "Nagrania można obejrzeć za  pośrednicwem kanału Akademickiego Stowarzyszenia Informatycznego w serwisie YouTube"
   p3:
     header: "Playlista"
-    content: "W ciągu kilku dni po konferencji udostępnimy pocięte filmy w formie listy odtwarzania. Nagrania z zeszłorocznej odsłony zamieściliśmy poniżej."
+    content: "W ciągu kilku dni po konferencji udostępnimy pocięte filmy w formie listy odtwarzania. "
   p4:
     content: "13. Sesja Linuksowa odbyła się w dniach 2-3 kwietnia 2016 roku w Strefie Kultury Studenckiej Politechniki Wrocławskiej."
   p5:

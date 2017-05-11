@@ -13,6 +13,7 @@ navigation:
   sponsors: "Sponsors"
   speakers: "Speakers"
   workshops: "Workshops"
+  live: "Talks"
   orgs: "Organizers"
   dojazd: "Location"
   contact: "Contact us"
@@ -102,7 +103,7 @@ workshops:
     header: "Coaches"
     content: "Workshops will be held by <b>Łukasz Gardoń</b> and <b>Patryk Czajkowski</b> - employees of Nokia<br /><center><img style=\"max-width: 50%\" src=\"/img/loga/logo-nokia.svg\" /></center>"
 live:
-  title: "Live stream"
+  title: "Talks from 14th Linux Session"
   p1:
     header: "Transmission"
     content: "From all the lectures during the 14th Linux Session we will be streaming live video feed"
