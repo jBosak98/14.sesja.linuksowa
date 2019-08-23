@@ -13,6 +13,7 @@ class SesjaLinuksowa < Sinatra::Application
     set :edition => "14"
 
     register Sinatra::R18n
+    R18n::I18n.default = 'pl'
 
     set :assets_css_compressor, :sass
     set :assets_js_compressor, :uglifier
@@ -33,7 +34,6 @@ class SesjaLinuksowa < Sinatra::Application
     set :email_options, {
       :from => "asiwww@tramwaj.asi.pwr.wroc.pl"
     }
-
   end
 
   if settings.edition.empty?
